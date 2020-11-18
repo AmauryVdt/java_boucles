@@ -22,6 +22,13 @@ public class App {
 
         System.out.println("La moyenne de la classe est de : "+ (note1+note2) / 2);
 
+        String[][] tab = new String[5][10];
+        for (String[] str:tab) {
+            for (String item:str) {
+                System.out.println( item );
+            }
+        }
+
         for (String str: args) {
             System.out.println(str);
         }

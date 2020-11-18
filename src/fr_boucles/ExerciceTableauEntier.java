@@ -1,4 +1,4 @@
-package fr.boucles;
+package fr_boucles;
 
 public class ExerciceTableauEntier {
 
